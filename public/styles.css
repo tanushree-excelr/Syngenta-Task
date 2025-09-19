@@ -1,0 +1,75 @@
+body {
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+nav {
+  background: #2c3e50;
+  padding: 10px 20px;
+}
+nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+nav ul li a:hover {
+  background: #34495e;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.task-table th, .task-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+.task-table th {
+  background: #f4f4f4;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #2c3e50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+button:hover {
+  background: #34495e;
+}
+
+.task-card {
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}

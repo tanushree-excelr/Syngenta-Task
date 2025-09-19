@@ -1,0 +1,21 @@
+{
+  "name": "todo-list-project",
+  "version": "1.0.0",
+  "description": "node js project",
+  "license": "ISC",
+  "author": "Tanushree Diwan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongodb": "^6.19.0",
+    "mongoose": "^8.18.1",
+    "nodemon": "^3.1.10"
+  }
+}
